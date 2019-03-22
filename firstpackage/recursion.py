@@ -63,7 +63,7 @@ def factorial(n):
         >>> factorial(3)
         6
     '''
-    if n == 1:
+    if n <= 1:
         return n
     else:
         return n * factorial(n-1)
