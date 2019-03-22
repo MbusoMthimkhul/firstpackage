@@ -1,0 +1,21 @@
+Metadata-Version: 1.0
+Name: firstpackage
+Version: 0.1
+Summary: package containing recursive and sorting functions
+Home-page: https://github.com/MbusoMthimkhul/firstpackage
+Author: Mbuso mthimkhulu
+Author-email: mthimkhulu.mbuso15@gmail.com
+License: MIT
+Description: # firstpackege
+        this library was created to group together recursive and sorting functions.
+        
+        ## building this package locally
+        `python setup.py sdist`
+        
+        ## installing this package from github
+        `pip install git+https://github.com/MbusoMthimkhul/firstpackage.git`
+        
+        ## updating this package from github
+        `pip install --upgrade git+https://github.com/MbusoMthimkhul/firstpackage.git`
+        
+Platform: UNKNOWN
