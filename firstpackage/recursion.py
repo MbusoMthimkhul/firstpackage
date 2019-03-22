@@ -20,8 +20,7 @@ def sum_array(array):
         return array[0] + sum_array(array[1:])
 
 def fibonacci(n):
-
-     """
+    """
     Calculate nth term in fibonacci sequence
 
     Args:
@@ -39,11 +38,10 @@ def fibonacci(n):
         >> fibonacci(3)
         2
     """
-    sum1 = 1
     if n == 1:
-        return sum1
+        return 1
     if n == 2:
-        return sum1
+        return 1
     if n > 2:
         return fibonacci(n-1) + fibonacci(n-2)
 
