@@ -38,8 +38,8 @@ def fibonacci(n):
         >> fibonacci(3)
         2
     """
-    if n == 1:
-        return 1
+    if n <= 1:
+        return n
     if n == 2:
         return 1
     if n > 2:
@@ -64,7 +64,7 @@ def factorial(n):
         6
     '''
     if n <= 1:
-        return n
+        return 1
     else:
         return n * factorial(n-1)
 
